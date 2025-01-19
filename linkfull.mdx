@@ -7,63 +7,66 @@ title: 'Nossos Links'
 
 Aqui estão os detalhes necessários para acessar o banco de dados de forma segura
 
----
+<Tabs>
+  <Tab title="soldatabase">
+    ## 🌐 **soldatabase - Informações de Conexão**
 
-### 🌐 **Endereço IP do Banco de Dados**
+    Aqui estão os detalhes de conexão para o **soldatabase**:
 
-| Descrição | Valor           |
-|-----------|-----------------|
-| **IP do Servidor Principal** | `192.168.1.100`  |
-| **IP do Servidor Secundário** | `192.168.1.101` (Backup)  |
+    ### **Endereço IP**
+    - **IP do Servidor:** `soldatabase.vertexcore.cloud`
+    - **Backup:** `soldatabase-backup.vertexcore.cloud` *(caso o principal esteja inativo)*
 
----
+    ### **Porta de Conexão**
+    - **Porta Padrão:** `3306` (MySQL)
 
-### 🔒 **Porta de Conexão**
+    ### **Credenciais de Acesso**
+    | Descrição  | Valor        |
+    |------------|--------------|
+    | **Usuário** | `soldb_user` |
+    | **Senha**   | `********` *(por segurança, não visível)* |
 
-- **Porta Padrão para MySQL:** `3306`
-- **Porta Padrão para PostgreSQL:** `5432`
-- **Porta de Backup:** `12345` *(caso as portas padrão estejam bloqueadas)*
+    ### **Informações Adicionais**
+    - **Banco de Dados:** `soldatabase_db`
+    - **Versão do Banco de Dados:** `MySQL 8.0`
+    - **Conexão Segura:** SSL
+    - **Tipo de Conexão:** VPN (altamente recomendado)
 
----
+    ---
+    🚨 **Observações**: 
+    - As conexões podem ser realizadas via VPN para maior segurança.
+    - Em caso de problemas, entre em contato com o suporte técnico.
 
-### 🔑 **Credenciais de Acesso**
+  </Tab>
 
-| Descrição  | Valor        |
-|------------|--------------|
-| **Usuário** | `db_user`    |
-| **Senha**   | `********` *(não visível por segurança)* |
+  <Tab title="venusdatabase">
+    ## 🌐 **venusdatabase - Informações de Conexão**
 
-> **Nota:** A senha é fornecida via canal seguro para garantir a proteção dos dados.
+    Aqui estão os detalhes de conexão para o **venusdatabase**:
 
----
+    ### **Endereço IP**
+    - **IP do Servidor:** `venusbr.vertexcore.cloud`
+    - **Backup:** `venusbackup.vertexcore.cloud` *(caso o principal esteja inativo)*
 
-### 📚 **Informações Adicionais**
+    ### **Porta de Conexão**
+    - **Porta Padrão:** `5432` (PostgreSQL)
 
-- **Banco de Dados:** `nome_do_banco`
-- **Versão do Banco de Dados:** `MySQL 8.0` / `PostgreSQL 13`
-- **Método de Conexão:** **SSL** (recomendado para segurança)
-- **Segurança:** Conexão através de VPN é altamente recomendada.
+    ### **Credenciais de Acesso**
+    | Descrição  | Valor        |
+    |------------|--------------|
+    | **Usuário** | `venusdb_user` |
+    | **Senha**   | `********` *(por segurança, não visível)* |
 
----
+    ### **Informações Adicionais**
+    - **Banco de Dados:** `venusdatabase_db`
+    - **Versão do Banco de Dados:** `PostgreSQL 13`
+    - **Conexão Segura:** SSL
+    - **Tipo de Conexão:** VPN (altamente recomendado)
 
-### 🚨 **Observações Importantes**
+    ---
+    🚨 **Observações**:
+    - Utilize a VPN para conexões seguras.
+    - Caso tenha problemas de conectividade, a equipe de TI está à disposição.
 
-- Para garantir a integridade e a segurança da conexão, sempre utilize as credenciais e portas recomendadas.
-- Caso ocorra algum erro de conexão, entre em contato com a equipe de TI.
-- **Monitoramento:** A equipe de operações monitora o banco de dados constantemente para evitar falhas.
-
----
-
-### 📞 **Suporte**
-
-Se precisar de assistência adicional, entre em contato com a nossa equipe através do [e-mail de suporte](mailto:support@empresa.com).
-
----
-
-> **Atenção:** Se houver alguma alteração nas configurações acima, você será notificado imediatamente.
-
----
-
-Essa formatação usa tabelas, ícones e separações visuais para destacar as informações importantes de forma clara e fácil de entender. Você pode personalizar ainda mais com cores e estilos adicionais, dependendo de como o Mintlify permite personalização no seu painel.
-
-Lembre-se que a plataforma Mintlify oferece ainda mais opções de personalização através de temas, CSS, e widgets, caso você queira uma apresentação mais avançada.
+  </Tab>
+</Tabs>

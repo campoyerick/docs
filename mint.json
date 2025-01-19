@@ -3,16 +3,16 @@
   "name": "VertexCore",
   "logo": {
     "dark": "logovt.png",
-    "light": "/logo/light.svg"
+    "light": "logodarkvt.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
-    "light": "#07C983",
+    "light": "#5C63FA",
     "dark": "#0D9373",
     "anchors": {
       "from": "#0D9373",
-      "to": "#07C983"
+      "to": "#5C63FA"
     }
   },
   "topbarLinks": [

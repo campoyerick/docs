@@ -5,14 +5,12 @@ title: 'Informações das Maquinas'
 Aqui você pode consultar todas as informações detalhadas sobre nossas máquinas, incluindo especificações, status, e mais. Abaixo, você encontrará detalhes bem organizados e interativos.
 
 <Tabs>
-  <Tab title="Máquina 1 - soldatabase">
-    ## 🌐 **Máquina: soldatabase**
-
+  <Tab title="Máquina BR - Venus">
     ### 💻 **Especificações**
-    - **IP:** `soldatabase.vertexcore.cloud`
-    - **CPU:** 8 núcleos, 3.2 GHz
+    - **IP:** `venusbr.vertexcore.cloud`
+    - **CPU:** 16 núcleos 32 Threads, 4.9 GHz
     - **Memória RAM:** 32 GB
-    - **Armazenamento:** 1 TB SSD
+    - **Armazenamento:** 2 TB SSD NVme
 
     ### 🚀 **Status**
     <Card variant="outlined" title="Status da Máquina">
@@ -28,19 +26,50 @@ Aqui você pode consultar todas as informações detalhadas sobre nossas máquin
     </Card>
 
     ### 🔒 **Segurança**
-    - **Conexão:** VPN (altamente recomendada)
-    - **Firewall:** Ativo
-    - **Backup:** Diariamente (armazenamento em nuvem)
+    - **Localização:** São Paulo - Brasil
+    - **Datacenter:** Ecxon
+    - **Uptime e SLA:** 99.8%
+    - **Proteção DDos:** MagicTransit 248Tbps
+    - **Backups off-site:** Semanalmente (armazenamento em nuvem)
 
     <Toast variant="success">Tudo está funcionando perfeitamente!</Toast>
   </Tab>
 
-  <Tab title="Máquina 2 - venusdatabase">
-    ## 🌐 **Máquina: venusdatabase**
-
+  <Tab title="Máquina BR - Sol">
     ### 💻 **Especificações**
-    - **IP:** `venusbr.vertexcore.cloud`
-    - **CPU:** 16 núcleos, 3.5 GHz
+    - **IP:** `solbr.vertexcore.cloud`
+    - **CPU:** 60 núcleos 120 Threads, 4.8 GHz
+    - **Memória RAM:** 96 GB
+    - **Armazenamento:** 2 TB SSD
+
+    ### 🚀 **Status**
+    <Card variant="outlined" title="Status da Máquina">
+      <div>
+        <Tooltip content="A máquina está em manutenção.">
+          <span>✅ **Operacional**</span>
+        </Tooltip>
+        <br />
+        <span>
+          Última atualização: <strong>5 minutos atrás</strong>
+        </span>
+      </div>
+    </Card>
+
+    ### 🔒 **Segurança**
+    - **Localização:** São Paulo - Brasil
+    - **Datacenter:** Ecxon
+    - **Uptime e SLA:** 99.8%
+    - **Proteção DDos:** MagicTransit 248Tbps
+    - **Backups off-site:** Semanalmente (armazenamento em nuvem)
+
+    <Warning>A máquina acima é dedicada e, portanto, não está acessível ao público.</Warning>
+  </Tab>
+
+  <Tab title="Máquina BR - Moon">
+    ### 💻 **Especificações**
+    - **IP:** `moonbr.vertexcore.cloud`
+    - **Processador:** Intel® Xeon® W9-3595X
+    - **CPU:** 12 núcleos 24 Threads, 4.8 GHz
     - **Memória RAM:** 64 GB
     - **Armazenamento:** 2 TB SSD
 
@@ -48,51 +77,23 @@ Aqui você pode consultar todas as informações detalhadas sobre nossas máquin
     <Card variant="outlined" title="Status da Máquina">
       <div>
         <Tooltip content="A máquina está em manutenção.">
-          <span>⚠️ **Em manutenção**</span>
+          <span>✅ **Operacional**</span>
         </Tooltip>
         <br />
         <span>
-          Última atualização: <strong>2 horas atrás</strong>
+          Última atualização: <strong>5 minutos atrás</strong>
         </span>
       </div>
     </Card>
 
     ### 🔒 **Segurança**
-    - **Conexão:** SSL
-    - **Firewall:** Ativo
-    - **Backup:** A cada 12 horas
+    - **Localização:** São Paulo - Brasil
+    - **Datacenter:** Ecxon
+    - **Uptime e SLA:** 99.8%
+    - **Proteção DDos:** MagicTransit 248Tbps
+    - **Backups off-site:** Semanalmente (armazenamento em nuvem)
 
-    <Toast variant="error">Atenção! A máquina está em manutenção.</Toast>
-  </Tab>
-
-  <Tab title="Máquina 3 - testmachine">
-    ## 🌐 **Máquina: testmachine**
-
-    ### 💻 **Especificações**
-    - **IP:** `testmachine.vertexcore.cloud`
-    - **CPU:** 4 núcleos, 2.8 GHz
-    - **Memória RAM:** 16 GB
-    - **Armazenamento:** 500 GB SSD
-
-    ### 🚀 **Status**
-    <Card variant="outlined" title="Status da Máquina">
-      <div>
-        <Tooltip content="Máquina aguardando reinício programado.">
-          <span>🔄 **Aguardando Reinício**</span>
-        </Tooltip>
-        <br />
-        <span>
-          Última atualização: <strong>15 minutos atrás</strong>
-        </span>
-      </div>
-    </Card>
-
-    ### 🔒 **Segurança**
-    - **Conexão:** VPN
-    - **Firewall:** Ativo
-    - **Backup:** A cada 24 horas
-
-    <Toast variant="warning">Reinício agendado para hoje às 18h.</Toast>
+    <Warning>A máquina acima é apenas para servidores de pequenos portes, de 1 a 4GB, não deixamos passar do limite de 50GB para não alocar mais do que é aceito.</Warning>
   </Tab>
 </Tabs>
 

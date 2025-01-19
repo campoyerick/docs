@@ -5,7 +5,7 @@
     "dark": "logovt.png",
     "light": "logodarkvt.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
     "primary": "#5C63FA",
     "light": "#5C63FA",
@@ -30,19 +30,19 @@
       "name": "Nosso Discord",
       "icon": "discord",
       "iconType": "brands",
-      "url": "https://mintlify.com/docs"
+      "url": "https://discord.gg/gBdpbgvRT6"
     },
     {
       "name": "Nosso Youtube",
       "icon": "youtube",
       "iconType": "brands",
-      "url": "https://mintlify.com/community"
+      "url": "https://youtube.be/vertexcore"
     },
     {
       "name": "Siga no Instagram",
       "icon": "instagram",
       "iconType": "brands",
-      "url": "https://mintlify.com/blog"
+      "url": "https://www.instagram.com/vertexcloud"
     }
   ],
   "navigation": [
@@ -54,36 +54,6 @@
         "infomachines",
         "infovertex"
       ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
-  }
 }

@@ -47,11 +47,16 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Bem-Vindo",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "Introdução"
+      ]
+    },
+    {
+      "group": "Painel de Controle",
+      "pages": [
+        "Como trocar a senha da sua conta",
+        "Como alterar o nome do seu servidor"
       ]
     },
     {

@@ -27,18 +27,21 @@
   },
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
+      "name": "Nosso Discord",
+      "icon": "discord",
+      "iconType": "brands",
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
+      "name": "Nosso Youtube",
+      "icon": "youtube",
+      "iconType": "brands",
       "url": "https://mintlify.com/community"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
+      "name": "Siga no Instagram",
+      "icon": "instagram",
+      "iconType": "brands",
       "url": "https://mintlify.com/blog"
     }
   ],

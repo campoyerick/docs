@@ -25,9 +25,6 @@
     "name": "Área do Cliente",
     "url": "https://financeiro.vertexcore.cloud/"
   },
-  "primaryTab": {
-    "name": "Home"
-  },
   "anchors": [
     {
       "name": "Nosso Discord",
@@ -62,7 +59,7 @@
       "group": "Essentials",
       "pages": ["markdown"]
       ]
-    },
+    }
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
